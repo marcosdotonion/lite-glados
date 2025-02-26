@@ -36,8 +36,11 @@ build/
 # Piper specific files
 piper_data/
 piper_checkpoints/
+<<<<<<< HEAD
 piper_voices/
 piper/
+=======
+>>>>>>> c6800ed (First commit)
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
