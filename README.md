@@ -28,8 +28,11 @@ cd lite-glados
     Set up your environment (optional but recommended):
 
 python3 -m venv myenv
-source myenv/bin/activate  # Linux/MacOS
-myenv\Scripts\activate.bat # Windows
+
+## Linux/MacOS
+source myenv/bin/activate 
+## Windows
+myenv\Scripts\activate.bat Windows
 
     To run with Ollama (recommended for production):
 
