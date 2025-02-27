@@ -2,10 +2,12 @@
 
 Lite-GLaDOS is a lightweight, conversational AI modeled after GLaDOS from the *Portal* series. This project supports integration with both **llama.cpp** and **Ollama** for generating responses, allowing for flexible deployment options. 
 
+
 ## Features
 
 - **Ollama Integration**: A fully functional interface with the Ollama model for fast and reliable responses.
 - **llama.cpp Support**: A work-in-progress implementation of **llama.cpp**, which is a lightweight alternative for model inference. This feature is still under development.
+
 
 ## Installation
 
@@ -50,6 +52,7 @@ run:
 
     python3 main.py
 
+
 ## Configuration
 
 - USE_OLLAMA: Set this to True to use Ollama or False for llama.cpp (experimental).
@@ -59,7 +62,6 @@ run:
 ## Contributing
 
 Feel free to fork the repository, submit issues, or contribute pull requests. Contributions are always welcome!
-License
 
 ## Acknowledgments
 GLaDOS from Portal for inspiration.
