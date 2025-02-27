@@ -15,9 +15,10 @@ Lite-GLaDOS is a lightweight, conversational AI modeled after GLaDOS from the *P
 - Dependencies from `requirements.txt`
 - piper and piper_voices (onnx and onnx.json)
 
-    ```bash
+run:
+
     pip install -r requirements.txt
-    ```
+
 ### Running the Project
 
 Clone the repository:
