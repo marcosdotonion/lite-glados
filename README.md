@@ -15,9 +15,9 @@ Lite-GLaDOS is a lightweight, conversational AI modeled after GLaDOS from the *P
 - Dependencies from `requirements.txt`
 - piper and piper_voices (onnx and onnx.json)
 
-    
+    ```bash
     pip install -r requirements.txt
-    
+    ```
 ### Running the Project
 
 Clone the repository:
@@ -69,4 +69,10 @@ Llama.cpp for providing an alternative method of inference.
 Ollama for providing a stable model inference environment.
 
 If you have any questions or need help setting up Lite-GLaDOS, feel free to open an issue or contact me directly.
+
+
+### Explanation:
+- **Features**: Describes the two model integration options: Ollama and llama.cpp.
+- **Installation**: Provides steps to set up the environment, install dependencies, and run the program.
+- **Configuration**: Describes how to configure the program for either Ollama or llama.cpp.
 
