@@ -33,7 +33,7 @@ Set up your environment (optional but recommended):
 ### Linux/MacOS
     source myenv/bin/activate 
 ### Windows
-    myenv\Scripts\activate.bat Windows
+    myenv\Scripts\activate.bat
 
 To run with Ollama (recommended for production):
 
@@ -52,17 +52,14 @@ run:
 
 ## Configuration
 
-USE_OLLAMA: Set this to True to use Ollama or False for llama.cpp (experimental).
-OLLAMA_MODEL: Set the model name if using Ollama (e.g., glados2).
-LLAMA_SERVER_URL: Set this to your local llama server URL if using llama.cpp.
+- USE_OLLAMA: Set this to True to use Ollama or False for llama.cpp (experimental).
+- OLLAMA_MODEL: Set the model name if using Ollama (e.g., glados2).
+- LLAMA_SERVER_URL: Set this to your local llama server URL if using llama.cpp.
 
 ## Contributing
 
 Feel free to fork the repository, submit issues, or contribute pull requests. Contributions are always welcome!
 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 
 ## Acknowledgments
 GLaDOS from Portal for inspiration.
@@ -71,9 +68,6 @@ Ollama for providing a stable model inference environment.
 
 If you have any questions or need help setting up Lite-GLaDOS, feel free to open an issue or contact me directly.
 
+## License
 
-### Explanation:
-- **Features**: Describes the two model integration options: Ollama and llama.cpp.
-- **Installation**: Provides steps to set up the environment, install dependencies, and run the program.
-- **Configuration**: Describes how to configure the program for either Ollama or llama.cpp.
-
+This project is licensed under the MIT License - see the LICENSE file for details.
